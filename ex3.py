@@ -1,6 +1,7 @@
 #我将算我有多少只鸡
 print("I will now count my chickens:")
 
+#计算代码
 print("Hens",25+30/6)
 print("Roosters",100-25*3%4)
 
