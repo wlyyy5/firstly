@@ -9,4 +9,4 @@ print(max(numbers))
 #几个数字、最大数字
 print(numbers[1:])
 #从第一个数字开始到最后一个数字。
-print ("list[1:-2]: ", list[1:-2])
+print ("numbers[1:-2]: ", numbers[1:-2])
