@@ -5,6 +5,8 @@
 
 numbers = [1,5,9,2,4,5]
 numbers += [3,8]
+#拼接操作,加在上面的列表后面
+
 print(len(numbers))
 print(max(numbers))
 #几个数字、最大数字
