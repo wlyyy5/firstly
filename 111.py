@@ -4,6 +4,7 @@
 #它的公式是：list[起始位置 : 结束位置]——print ("list[1:-2]: ", list[1:-2])
 
 numbers = [1,5,9,2,4,5]
+numbers += [3,8]
 print(len(numbers))
 print(max(numbers))
 #几个数字、最大数字
