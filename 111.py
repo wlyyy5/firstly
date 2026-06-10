@@ -13,3 +13,6 @@ print(max(numbers))
 print(numbers[1:])
 #从第一个数字开始到最后一个数字。
 print ("numbers[1:-2]: ", numbers[1:-2])
+
+print(numbers.count(5))
+#统计某个元素在列表中出现的次数
