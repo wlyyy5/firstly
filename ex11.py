@@ -12,6 +12,6 @@ print(f"So, you're {age} old, {height} tall and {weight} heavy.")
 
 age = int(input("How old are you?"))
 height = int(input("How tall are you?"))
-weight = int(input("How much do you weigh?"))
+weight = float(input("How much do you weigh?"))  # 这里改成 float() 就能输入小数了！
 
 print(f"So, you're {age} old, {height} tall and {weight} heavy.")
