@@ -1,7 +1,7 @@
 from sys import argv
 
 script,user_name = argv
-prompt = '>'
+prompt = '+++'
 
 print(f"Hi {user_name}, I'm the {script} script.")
 print("I'd like to ask you a few questions.")
@@ -19,4 +19,4 @@ Alright, so you said {likes} ahout liking me.
 You live in {lives}. Not sure where that is.
 And you have a {computer} computer. Nice.
 """)
-#呵呵呵呵呵呵呵
+
