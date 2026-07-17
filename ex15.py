@@ -9,6 +9,7 @@ txt = open(filename)
 
 print(f"Here's your file {filename}:")
 print(txt.read())
+txt.close()
 #读取内容 (read)：使用 print(txt.read()) 把文件的内容显示在屏幕上。
 #关闭文件 (close)：使用 txt.close() 关闭文件，释放系统资源。
 
@@ -18,3 +19,5 @@ file_again = input(">")
 txt_again = open(file_again)
 
 print(txt_again.read())
+txt_again.close()
+
