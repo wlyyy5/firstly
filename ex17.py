@@ -1,4 +1,7 @@
 #巩固练习：把代码缩成一行
+
+#from sys import argv 
+#script, from_file, to_file = argv
 #open(to_file, 'w').write(open(from_file).read())
 #打开 from_file 读出内容，直接喂给以 'w' 打开的 to_file 写入
 
